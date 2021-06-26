@@ -1,3 +1,24 @@
+body {
+    margin: auto;
+    text-align: center;
+    background: rgb(157,22,22);
+    background: radial-gradient(circle, rgba(157,22,22,1) 0%, rgba(29,29,29,1) 100%);
+}
+
+h1 {
+    font-size: 72px;
+}
+
 h2 {
     color: grey;
+}
+
+h3 {
+    font-size: 30px;
+    background: -webkit-radial-gradient(#551e1e, rgb(0, 0, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 350px;
+    margin: auto;
+    text-align: center;
 }
